@@ -1,0 +1,77 @@
+AI masses - Missy Edits
+
+You can start learning web design or Python programming from paperback books or online tutorials. But the next wave of computing—broadly lumped as artificial intelligence—belongs to a select few of highly trained experts who earn six-figure salaries. "If you just go look at how many people are graduating with a data science degree, and what's the percentage of those who have expertise in AI and machine learning, you pretty much end up with thousands, only," says Mazin Gilbert, VP of advanced technology at [url=http://about.att.com/innovation/labs]AT&T Labs[/url].
+
+"You need teams of data scientists who can actually understand neural networks and tweak them," says Matthew Zeiler, who founded the visual recognition startup [url=https://clarifai.com/]Clarifai[/url] in 2013, after earning his PhD in computer science. But now that the software and hardware groundwork for AI has been built, simpler tools for non-experts are emerging.
+
+AI needs a point-and-click revolution to keep growing, says Gilbert. "No matter how many [people] we train—and other companies are doing the same thing—it's just not enough to make machine learning AI mainstream.," Machine learning, which digests huge amounts of data to identify patterns, is the hottest branch of AI today, with applications diverse as organizing cellphone photos, teaching computers to drive autonomous cars, and studying cancer. 
+
+[figure=inline-large]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-1-machine-learning-ai.png[/img][caption]Clarifai's tool can be trained to recognize a particular class of items, such as Adidas sneakers.[credit]Photo: courtesy Clarifai[/credit][/caption]
+[/figure]
+
+Artificial intelligence is tiptoeing up the accessibility curve that other technologies like web programming have taken as they progress from techies to the rest of us. You'll still get the best results by coding a website in HTML, CSS, and JavaScript; but now you can get something pretty good using Squarespace. AI is much more complicated, but companies including AT&T, Clarifai, and IBM, as well as universities like Berkeley, are creating intuitive ways for people with big ideas to start building AI tools without big expertise.
+
+[H4]AI as a service[/H4]
+
+The cloud is a key ingredient, with companies building complex systems that do the heavy calculation work on servers and allowing users to plug into the systems over the Internet. [[BETTER?]] "You don't have to know about neural networks or machine learning or anything like that. We do all of the tuning for you," says Zeiler. Clarifai has built an image-recognition system that companies like the hotel-comparison site Trivago use to determine, for instance, if a photo depicts a room, a pool, or a beach view. BuzzFeed relies on Clarifai to tag photos so editors can find the right ones to accompany their stories.
+
+[figure=inline-large]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-1-oreocookie.gif[/img][caption]Showing images to Clarifia's Custom Training tool teaches it how to recognize specific things.[/caption]
+[/figure]
+
+Clarifai's service is trained to recognize about 11,000 different broad image classes, such as flowers; but customers might want to get more specific. One of them [[MEANING ONE OF CLARIFAI'S CUSTOMERS?]] has an app that identifies flower types, like dahlia. So Clarifai brought out a service called [url=http://blog.clarifai.com/train-your-own-visual-recognition-model-and-search-any-image-with-custom-training-visual-search#.WH1JjrbyuRs]Custom Training[/url] that can be set up [[BY WHOM? THE USER? IE, A NON-EXPERT USER?]] using a few lines of code or even a point-and-click interface. 
+
+People just type in the name of a category—let's say "dahlia"—then drag and drop image files of that flower that train the system to recognize it. An insurance company taught Clarifai to identify photos showing water damage to houses. This is more than using an AI product that was built for end-users[[I DON'T REALLY UNDERSTAND THIS THOUGHT. MEANING IT'S A TOOL THAT EVOLVES WITH THE SPECIFIC USER? ISN'T AI ALWAYS EVOLVING, THOUGH?]]; it's customizing an AI to classify something it couldn't recognize before.
+
+--DEMO VIDEO--
+	
+IBM Watson, the cloud-based system that seems to be everywhere in AI, is also moving to non-experts. [url=https://www.ibm.com/us-en/marketplace/watson-analytics]Watson Analytics[/url] allows business users to upload data, such as spreadsheets of sales figures, and kick off an AI analytic process. Right after the upload, Watson chews on the data—the column heads, the range of number values, for instance—and starts proposing ways you might want to slice and dice it. (IBM also has a [url=https://www.ibm.com/us-en/marketplace/social-media-data-analysis]module that pulls social media information[/url] to evaluate how people are discussing a particular topic or product or what they might be planning to buy.)
+
+[figure=inline-large]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-1-ibm-chart.png[/img][caption]After ingesting data, Watson proposes some ways to analyze it. You can also just start asking questions.[/caption]
+[/figure]
+
+As an example, IBM sent me a spreadsheet of data from a fictional retail coffee chain, with column heads like profit, margin, date, market, area code, and product type. I could type in a question like, "What are the best months for sales?" [[[AND GET AN ANSWER FROM WATSON? FEELS LIKE WE'RE MISSING THE "BUT..." OR OTHER SECOND HALF OF THIS THOUGHT THAT EXPRESSES A CONSEQUENCE]]] But Watson Analytics also proposes ways to analyze the data, such as "What is the relationship between Profit and Sales by Year (Date)?" and "What drives Budget Margin?" I could click on those to see where the analysis takes me. 
+
+[figure=inline-large]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-2-ibm-chart.png[/img][caption]At right, under Discoveries, Watson Analytics surfaces relationships found in the data. At left, it offers pre-defined, but tweakable ways to analyze and visualize those relationships.[/caption]
+[/figure]
+
+"It enables that natural curiosity where, before they[[WHO? BUSINESS USERS?]]] know it, they are actually using analytic algorithms that are helping them identify trends and patterns without ever having to write a line of code," says Elcenora Martinez of IBM's Business Analytics division.
+
+[sidebar]
+[h4]Related Article[/h4]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-1-ibm-machine-watson.jpg[/img]
+[url=https://www.fastcompany.com/3065339/mind-and-machine/can-ibms-watson-do-it-all]Can IBM’s Watson Do It All?[/url]
+[/sidebar]
+
+AT&T is going even further by allowing employees to build their own point-and-click AI applications. "We want a quarter of our workforce to use machine learning and AI, and that's clearly not the case today," says AT&T Labs' Gilbert. "Our target is: Lower the barrier of entry to users who have a degree, not necessarily a computer science degree, and cannot even program." AT&T is doing this[[HE MEANS THE AT&T WORKFORCE?]] with a system, called simply AT&T's Machine Learning Platform, that lets employees[[AT&T EMPLOYEES? LET'S CLARIFY THAT THIS IS IN DEVELOPMENT BECAUSE I WAS UNSURE UNTIL I GOT TO THE GRAFS BELOW WHETHER THIS WAS ON THE MARKET OR NOT AND WHO WAS USING IT AT PRESENT.]] string together AI components, which AT&T calls widgets, such as a machine learner and natural language processor. (NLP extracts meaning from the free flowing way people actually speak and write).
+
+"Today, people write code. They have to sit down and write an application that connects all of these [AI components]," says Gilbert. AT&T is pre-writing these connectors, creating "wrappers" around AI widgets that allow them to exchange data. The wrappers also ensure that the widgets only connect in a way that produces a working application. Green checkmarks appear on the widgets if users have connected them properly. "They become like Legos. Now I can take this data; I can process it with that data," says Gilbert. "I can apply this filter, this natural language [processor], I can try three machine learners…and I can do it without any programming."
+
+For instance, a non-programmer in AT&T customer service could drag and drop an AI tool that would detect the sentiment from the chat logs with customers, says Gilbert. They would string together widgets to get the data, process the data, clean the data, run one or more algorithms on it, and output a useful answer. [[AN ANSWER TO WHAT QUESTION? IT SOUNDS LIKE THE TOOL IS ANALYZING USER SENTIMENT. SO WHERE'S THE QUESTION?]]]
+
+[figure=inline-large]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-1-att-machine.png[/img][caption]AT&T's tool lets users drag and drop to build AI applications from components like data sources, data cleaners, and machine learning algorithms. The box with the graph in the center of the screen shows how well different algorithms work so the user can pick the best one.[credit]Photo: courtesy of AT&T[/credit][/caption]
+[/figure]
+
+AT&T's Machine Learning Platform is in a beta phase. About a dozen employees are creating applications that the company is already using, in the areas of network reliability, network security, and customer experience. AT&T aims to extend the tool throughout the company and possibly offer it as a product for other companies or organizations. "We are absolutely interested in taking it outside," says Gilbert.
+
+[H4]From chatbots to robots[/H4]
+
+AI has come a long way in understanding words, numbers, and images in the virtual world. A bigger challenge is dealing with physics in the real world: teaching robots how to move around without crashing or to handle objects without smashing. Robotics professor Ken Goldberg leads a project at U.C. Berkeley called [url=http://automation.berkeley.edu/]Autolab[/url], which is training robots to perform tricky tasks, from picking up clutter to suturing wounds. Goldberg recently [url=https://www.fastcompany.com/3066863/robot-revolution/why-its-so-hard-for-robots-to-get-a-grip]showed me an experiment[/url] with a two-armed robot that (very slowly) packs boxes for shipping. 
+
+[figure][video]<iframe width="560" height="315" src="http://www.fastcompany.com/embed/J9NHdhv6?rel=1&src=embed&veggiemode=1" frameborder="0" scrolling="no" allowfullscreen></iframe>[/video][caption]The arm at the left was physically trained to singulate (separate) the pile of objects for the other hand to grasp.[/caption][/figure]
+
+One of the robot's arms is supposed to pick up objects, a task it figures out by drawing from an online database of 3D shapes. The other arm's job is to push the pile of objects, spreading them out so they're easier to spy (with a camera) and grab. The pushing arm is trained by someone who moves it around. "You would grab its hand and…say, 'I want you to push here, here, and here,'" says Michael Laskey, a graduate student who trained the arm.  "And then you just do that 50 times and [the robot] infers the pattern of what you are doing." 
+
+[sidebar]
+[h4]Related Article[/h4]
+[img]multisite_files/fastcompany/inline/2017/03/3062951-inline-i-2-ibm-machine-watson.jpg[/img]
+[url=https://www.fastcompany.com/3065504/mind-and-machine/ai-and-robots-wont-take-your-job-for-decades-probably]AI And Robots Won’t Take Your Job For Decades—Probably[/url]
+[/sidebar]
+
+This process, called learning from demonstration, isn’t dumbed down AI. It's training a robot using the most sophisticated motion controller out there—a human brain. It also recruits a wider swath of people than typical AI jobs. "Why I'm drawn to this approach is it has this prospect of non-experts, not roboticists, being able to teach a robot a new manipulation task," says Laskey. "For every time you want to make a robot learn to golf, someone else might want to make it learn to pour coffee."
+
+Point-and-click tools extended computers beyond dedicated programmers to pretty much everyone—unleashing creativity and productivity that wouldn't have been possible from just a few experts. Amid a flood of predictions about AI taking jobs away, here's an opportunity to preserve or even create new jobs by making AI accessible to the masses.
